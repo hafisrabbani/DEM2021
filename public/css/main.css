@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.medium{
+    font-weight: 500;
+}
+
+.regular{
+    font-weight: 400;
+}
+.wireframe{
+    height: 200px;
+    /* background-color: #E5E5E5; */
+    width: 100%;
+}
+.bg{
+    background: rgb(155,229,242);
+    /* background: linear-gradient(0deg, rgba(155,229,242,1) 49%, rgba(255,255,255,1) 100%); */
+}
+
+.text{
+    color:#333;
+}
+.overlay{
+  /* position: ; */
+    /* height: 100%; */
+    background: rgba(36, 36, 36, 1);
+    background: linear-gradient(0deg, rgba(0,0,0,2) 0%, rgba(0, 0, 0,0.5) 100%);
+    /* z-index: 213131312; */
+}
+
+.o-img{
+  opacity: 0.6;
+}
+
+.carousel .carousel-item img{
+  max-height: 768px;
+  width: 100%;
+}
+
+.subMain{
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 4px;
+}
+
+.main-bg{
+  background-color: #9be5f2;
+}
+
+.carousel .carousel-item img{
+  /* max-width: 60%; */
+  max-height: 560px;
+}
+
+.scroll{
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.scroll .row{
+  display: block;
+}
+
+.scroll .scroll-box{
+  display: inline-block;
+  float: none;
+  /* border: 1px solid red;
+  padding: 15px; */
+}
+
+.card{
+  border-radius: 15px;
+}
+/* .card img {
+  border-radius: 15px 15px 15px 15px;
+} */
+
+.card-crop{
+    object-fit: fill;
+    height: 160px;
+    /* object-position: -50%; */
+    object-fit: cover;
+}
+
+.bid{
+  background-color:#ff357a;
+  border: #f73575;
+  border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+}
+
+.card-horizontal-crop{
+    /* width: 190px; */
+    height: 190px;
+    width: 150px;
+    /* background-position:center; */
+    /* background-repeat: no-repeat; */
+    object-fit: contain;
+}
+
+.card-template{
+  object-fit: fill;
+  overflow: hidden;
+}
+
+
+.notif{
+  position: relative;
+  font-size: 1.5em;
+  /* color: grey; */
+  cursor: pointer;
+}
+.notif-main{
+  position: relative;
+  font-size: 1em;
+  /* color: grey; */
+  cursor: pointer;
+}
+
+span.fa-comment {
+  position: absolute;
+  font-size: 0.6em;
+  top: -2px;
+  color: red;
+  right: -4px;
+}
+span.num {
+  position: absolute;
+  font-size: 0.5em;
+  top: -2px;
+  color: #fff;
+  right: -1px;
+}
